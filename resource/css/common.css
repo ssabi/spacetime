@@ -8,6 +8,7 @@
 #header {
     position:relative;
     height:57px;
+    background-color:#13110f;
     z-index:10;
 }
 #header .inner {
