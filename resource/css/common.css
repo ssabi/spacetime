@@ -122,9 +122,11 @@
     height:100%;
     min-height:100%;
     margin:0 0 -80px;
+    padding:19px 0 115px;
     -webkit-overflow-scrolling:touch;
 }
 
 #header + #container {
     margin:-57px 0 -80px;
+    padding:57px 0 100px;
 }
