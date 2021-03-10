@@ -18,5 +18,6 @@ legend{*display:none}
 caption{padding:0;margin:0;font-size:0;width:0;height:0;line-height:0;text-indent:-9999px}
 *{-webkit-text-size-adjust:none}
 input::-ms-clear{display:none}
+*, *:before, *:after{box-sizing:border-box;}
 
 body{font-size:16px;font-family:'Nanum Myeongjo', 'Noto Sans Myanmar', sans-serif;}
