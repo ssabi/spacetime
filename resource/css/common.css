@@ -26,7 +26,7 @@
     width:40px;
     height:25px;
     text-indent:-9999px;
-    background:url(/resource/images/icon/ico_back.png) no-repeat left top;
+    background:url(../images/icon/ico_back.png) no-repeat left top;
     background-size:100%;
 }
 #header .btn-question {
@@ -42,7 +42,7 @@
     width:25px;
     height:25px;
     text-indent:-9999px;
-    background:url(/resource/images/icon/ico_question.png) no-repeat left top;
+    background:url(../images/icon/ico_question.png) no-repeat left top;
     background-size:100%;
 }
 #header h1 {
