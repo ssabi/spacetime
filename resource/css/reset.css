@@ -12,7 +12,7 @@ a{color:#060614;text-decoration:none}
 a:active, a:hover{text-decoration:underline}
 address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 html, body{height:100%}
-img{vertical-align:middle}
+img{max-width:100%;vertical-align:middle}
 legend, .hide{width:1px;height:1px;line-height:0;position:absolute;left:-5000px;top:-5000px;z-index:-100;text-indent:-2000px}
 legend{*display:none}
 caption{padding:0;margin:0;font-size:0;width:0;height:0;line-height:0;text-indent:-9999px}

@@ -6,12 +6,9 @@
 }
 
 #header {
-    position:fixed;
-    left:0;
-    top:0;
-    width:100%;
+    position:relative;
     height:57px;
-
+    z-index:10;
 }
 #header .inner {
     padding:0 60px;
@@ -62,10 +59,8 @@
 }
 
 #footer {
-    position:fixed;
-    left:0;
-    bottom:0;
-    width:100%;
+    position:relative;
+    z-index:10;
 }
 
 #footer .inner {
@@ -122,6 +117,10 @@
     overflow-y:auto;
     height:100%;
     min-height:100%;
-    /* margin:-57px 0 -80px; */
+    margin:0 0 -80px;
     -webkit-overflow-scrolling:touch;
+}
+
+#header + #container {
+    margin:-57px 0 -80px;
 }

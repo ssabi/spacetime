@@ -3,15 +3,28 @@
 @import url("common.css");
 
 #contents {
-    padding:57px 20px 100px;
+    padding:19px 20px 115px;
     font-size:18px;
     line-height:26px;
     color:#bfb299;
     font-family:'Noto Sans Myanmar', sans-serif;;
+}
+#header + #container #contents {
+    padding:57px 20px 100px;
 }
 
 .txt-box {
 }
 .txt-box:first-child {
     margin-top:12px;
+}
+
+.img-box {
+
+}
+.img-box:first-child {
+    margin-top:4px;
+}
+.img-box + .txt-box {
+    margin-top:27px;
 }
