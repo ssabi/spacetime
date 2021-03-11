@@ -101,6 +101,7 @@
     line-height:60px;
     font-weight:800;
     font-size:20px;
+    letter-spacing:8px;
 }
 .btn:hover, .btn:focus{
     text-decoration:none;
@@ -115,6 +116,7 @@
 .btn.bg-gray {
     background-color:#3e3934;
     color:#978b7e;
+    letter-spacing:0;
 }
 .btn.bg-blue {
     background-color:#2b2d75;
