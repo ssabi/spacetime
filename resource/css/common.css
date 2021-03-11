@@ -80,12 +80,14 @@
 }
 
 #footer .btn-wrap {
-    display:flex;
     height:80px;
-    padding:10px 20px;
     background-color:#272522;
     font-size:20px;
     text-align:center;
+}
+#footer .btn-wrap > div {
+    display:flex;
+    padding:10px 20px;
     justify-content:space-between;
 }
 #footer .btn-wrap .btn {
@@ -103,9 +105,11 @@
     height:60px;
     border-radius:6px;
     line-height:60px;
+    font-family:'Nanum Myeongjo', sans-serif !important;
     font-weight:800;
     font-size:20px;
     letter-spacing:8px;
+    text-align:center;
 }
 .btn:hover, .btn:focus{
     text-decoration:none;
@@ -136,7 +140,7 @@
     margin:0 0 -80px;
     */
     padding:19px 0 115px;
-    webkit-overflow-scrolling:touch;
+    -webkit-overflow-scrolling:touch;
 }
 
 #header + #container {
