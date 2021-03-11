@@ -25,3 +25,28 @@
 .img-box + .txt-box {
     margin-top:27px;
 }
+
+.time-box {
+    height:140px;
+    padding:20px 10px 0;
+    background-color:#403c38;
+    border-radius:6px;
+    text-align:center;
+}
+.time-box i {
+    display:inline-block;
+    width:60px;
+    height:60px;
+    background:url(../images/icon/ico_clock.svg) no-repeat left top;
+    background-size:100%;
+    vertical-align:middle;
+}
+.time-box p {
+    margin-top:13px;
+    font-weight:500;
+    font-size:20x;
+    line-height:43px;
+}
+.txt-box + .time-box {
+    margin-top:32px;
+}
