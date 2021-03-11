@@ -140,7 +140,7 @@
 }
 
 #footer .btn-wrap {
-    height:80px;
+    min-height:80px;
     background-color:#272522;
     font-size:20px;
     text-align:center;
