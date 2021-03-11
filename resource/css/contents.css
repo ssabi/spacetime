@@ -2,6 +2,10 @@
 @import url("reset.css");
 @import url("common.css");
 
+body {
+    background-color:#13110f;
+}
+
 #contents {
     padding-left:20px;
     padding-right:20px;
