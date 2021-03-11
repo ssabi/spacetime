@@ -66,6 +66,27 @@ body {
     width:100%;
     margin-top:10px;
 }
+.form-box .inner {
+    display:flex;
+    justify-content:center;
+}
+.form-box .inner .input-wrap {
+    width:60px;
+    text-align:center;
+}
+.form-box .inner .input-wrap:before {
+    left:20px;
+}
+.form-box .inner .input-wrap.focus:before {
+    display:none;
+}
+.form-box .inner .input-wrap input {
+    text-align:center;
+    padding:0 5px;
+}
+.form-box .inner .input-wrap + .input-wrap {
+    margin-left:10px;
+}
 
 .hint-txt {
     margin-top:42px;
@@ -137,8 +158,12 @@ body {
 }
 
 .hint-box {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
     height:574px;
     margin-top:5px;
+    padding-bottom:30px;
     border-radius:6px;
     border:2px solid #bfb299;
     background-color:#2b2d75;
@@ -151,12 +176,21 @@ body {
     font-weight:700;
     font-size:46px;
     line-height:53px;
+    flex:0 1 auto;
 }
 .hint-box .txt {
     padding:0 28px;
     font-weight:700;
     font-size:14px;
     line-height:20px;
+    flex:0 1 auto;
+}
+.hint-box .img{
+    display:flex;
+    padding:0 28px;
+    flex:1;
+    justify-content:center;
+    align-items:center;
 }
 
 .camera-area {
