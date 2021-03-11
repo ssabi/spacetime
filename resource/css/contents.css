@@ -45,9 +45,47 @@ body {
     display:inline-block;
     width:60px;
     height:60px;
-    background:url(../images/icon/ico_clock.svg) no-repeat left top;
     background-size:100%;
     vertical-align:middle;
+}
+.ico-clock01 {
+    background:url(../images/icon/ico_clock01.svg) no-repeat left top;
+}
+.ico-clock02 {
+    background:url(../images/icon/ico_clock02.svg) no-repeat left top;
+}
+.ico-clock03 {
+    background:url(../images/icon/ico_clock03.svg) no-repeat left top;
+}
+.ico-clock04 {
+    background:url(../images/icon/ico_clock04.svg) no-repeat left top;
+}
+.ico-clock05 {
+    background:url(../images/icon/ico_clock05.svg) no-repeat left top;
+}
+.ico-clock06 {
+    background:url(../images/icon/ico_clock06.svg) no-repeat left top;
+}
+.ico-clock07 {
+    background:url(../images/icon/ico_clock07.svg) no-repeat left top;
+}
+.ico-clock08 {
+    background:url(../images/icon/ico_clock08.svg) no-repeat left top;
+}
+.ico-clock09 {
+    background:url(../images/icon/ico_clock09.svg) no-repeat left top;
+}
+.ico-clock10 {
+    background:url(../images/icon/ico_clock10.svg) no-repeat left top;
+}
+.ico-clock11 {
+    background:url(../images/icon/ico_clock11.svg) no-repeat left top;
+}
+.ico-clock12 {
+    background:url(../images/icon/ico_clock12.svg) no-repeat left top;
+}
+.ico-clock13 {
+    background:url(../images/icon/ico_clock13.svg) no-repeat left top;
 }
 .time-box p {
     margin-top:13px;
