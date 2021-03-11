@@ -232,14 +232,12 @@ body {
 }
 
 .camera-area {
-    height:calc(100vh - 57px);
-    /* height:calc(100% - 57px); */
-    background-color:#c3c3c3;
-}
-.camera-area > div {
     display:flex;
     align-items:center;
     justify-content:center;
+    height:calc(100vh - 57px);
+    /* height:calc(100% - 57px); */
+    background-color:#c3c3c3;
 }
 .camera-area p {
     font-weight:700;
