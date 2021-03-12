@@ -250,7 +250,7 @@ body {
 }
 .img-list p {
     overflow:hidden;
-    border-radius:6px;
+    /* border-radius:6px; */
 }
 .img-list p + p {
     margin-top:10px;
