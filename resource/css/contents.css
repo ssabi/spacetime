@@ -6,6 +6,14 @@ body {
     background-color:#13110f;
 }
 
+/* Wrapper */
+#wrap {
+    max-width:400px;
+    margin:0 auto;
+    min-height:100%;
+    background-color:#13110f;
+}
+
 #contents {
     padding-left:20px;
     padding-right:20px;

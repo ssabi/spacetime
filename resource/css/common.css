@@ -63,12 +63,6 @@
     color:#574c40;
 }
 
-/* Wrapper */
-#wrap {
-    min-height:100%;
-    background-color:#13110f;
-}
-
 /* Header */
 #header {
     position:relative;
@@ -125,15 +119,18 @@
     color:#978b7e;
     text-overflow:ellipsis;
     white-space:nowrap;
+    letter-spacing:-0.025em;
 }
 
 /* Footer */
 #footer {
     position:fixed;
-    left:0;
+    left:50%;
     bottom:0;
     width:100%;
+    max-width:400px;
     z-index:10;
+    transform:translate(-50%, 0);
 }
 #footer .inner {
 
