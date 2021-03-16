@@ -179,6 +179,9 @@ body{font-family:'Noto Sans Myanmar', sans-serif;}
     width:100%;
     max-width:none;
     padding:0 20px 50px;
+    transform:translate(0, 0);
+    background-color:transparent;
+    border:0;
 }
 .login-wrap .btn-wrap a {
     display:flex;
