@@ -35,6 +35,10 @@
     background-color:#2b2d75;
     color:#fff;
 }
+.btn.bg-purple {
+    background-color:#685dd3;
+    color:#fff;
+}
 
 .input-wrap {
     position:relative;

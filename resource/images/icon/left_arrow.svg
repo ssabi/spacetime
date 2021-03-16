@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:#111}
+        </style>
+    </defs>
+    <g id="그룹_536" transform="translate(-35 -60)">
+        <g id="그룹_535" transform="rotate(-45 48.236 129.784)">
+            <path id="사각형_280" d="M0 0H11V2H0z" class="cls-2" transform="translate(84 81)"/>
+            <path id="사각형_281" d="M0 0H11V2H0z" class="cls-2" transform="rotate(90 2.5 83.5)"/>
+        </g>
+    </g>
+</svg>

@@ -24,7 +24,33 @@
                 centeredSlides: true,
                 slidesPerView: 7,
                 spaceBetween: 0,
-                loop: true
+                loop: true,
+                on: {
+                    init : function(swiper){
+                        var activeIndex = swiper.activeIndex;
+
+                        $(swiper.slides[activeIndex - 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev3");
+                        $(swiper.slides[activeIndex - 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev2");
+                        $(swiper.slides[activeIndex - 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev1");
+                        $(swiper.slides[activeIndex]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("center");
+                        $(swiper.slides[activeIndex + 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next1");
+                        $(swiper.slides[activeIndex + 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next2");
+                        $(swiper.slides[activeIndex + 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next3");
+                    },
+                    slideChange : function(swiper){
+                        //console.log(swiper);
+
+                        var activeIndex = swiper.activeIndex;
+
+                        $(swiper.slides[activeIndex - 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev3");
+                        $(swiper.slides[activeIndex - 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev2");
+                        $(swiper.slides[activeIndex - 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev1");
+                        $(swiper.slides[activeIndex]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("center");
+                        $(swiper.slides[activeIndex + 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next1");
+                        $(swiper.slides[activeIndex + 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next2");
+                        $(swiper.slides[activeIndex + 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next3");
+                    }
+                }
             });
 
             var swiper02 = new Swiper('.main-slide-wrap .swiper-container', {
