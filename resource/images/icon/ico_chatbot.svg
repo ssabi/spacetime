@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="사각형_116" fill="#fff" stroke="#707070" d="M0 0H30V30H0z" transform="translate(40 369)"/>
+        </clipPath>
+        <style>
+            .cls-2{fill:#685dd3}
+        </style>
+    </defs>
+    <g id="그룹_547" transform="translate(-300 -656)">
+        <circle id="타원_145" cx="25" cy="25" r="25" class="cls-2" transform="translate(300 656)"/>
+        <g id="마스크_그룹_42" clip-path="url(#clip-path)" transform="translate(270 297)">
+            <g id="그룹_169" transform="translate(41.48 370.48)">
+                <path id="합치기_8" fill="#fff" d="M0 13.5a13.5 13.5 0 1 1 24.888 7.252l.016.111c.172 1.073 2.117 3.8 1.237 4.73s-2.183.058-2.968-.14a5.991 5.991 0 0 0-2.446-.548A13.5 13.5 0 0 1 0 13.5z" transform="translate(-.48 -.48)"/>
+                <rect id="사각형_114" width="3" height="6" class="cls-2" rx="1.5" transform="translate(6.52 10.52)"/>
+                <rect id="사각형_115" width="3" height="6" class="cls-2" rx="1.5" transform="translate(16.52 10.52)"/>
+            </g>
+        </g>
+    </g>
+</svg>
