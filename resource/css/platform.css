@@ -174,12 +174,12 @@ body{font-family:'Noto Sans Myanmar', sans-serif;}
 }
 .login-wrap > div.btn-wrap {
     position:absolute;
-    left:0;
+    left:50%;
     bottom:0;
+    max-width:400px;
     width:100%;
-    max-width:none;
     padding:0 20px 50px;
-    transform:translate(0, 0);
+    transform:translate(-50%, 0);
     background-color:transparent;
     border:0;
 }
