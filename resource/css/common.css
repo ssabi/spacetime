@@ -39,7 +39,7 @@
     background-color:#685dd3;
     color:#fff;
 }
-.btn.bg-purple[disabled] {
+.btn.bg-purple.disabled {
     background-color:#efefef;
     color:#888;
 }
