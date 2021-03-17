@@ -20,36 +20,17 @@
     <script>
         $(document).ready(function(){
             var swiper01 = new Swiper('.main-round-slide-wrap .swiper-container', {
-                //slidesPerView: 'auto',
-                centeredSlides: true,
-                slidesPerView: 7,
-                spaceBetween: 0,
+                effect: "coverflow",
                 loop: true,
-                on: {
-                    init : function(swiper){
-                        var activeIndex = swiper.activeIndex;
-
-                        $(swiper.slides[activeIndex - 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev3");
-                        $(swiper.slides[activeIndex - 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev2");
-                        $(swiper.slides[activeIndex - 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev1");
-                        $(swiper.slides[activeIndex]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("center");
-                        $(swiper.slides[activeIndex + 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next1");
-                        $(swiper.slides[activeIndex + 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next2");
-                        $(swiper.slides[activeIndex + 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next3");
-                    },
-                    slideChange : function(swiper){
-                        //console.log(swiper);
-
-                        var activeIndex = swiper.activeIndex;
-
-                        $(swiper.slides[activeIndex - 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev3");
-                        $(swiper.slides[activeIndex - 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev2");
-                        $(swiper.slides[activeIndex - 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("prev1");
-                        $(swiper.slides[activeIndex]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("center");
-                        $(swiper.slides[activeIndex + 1]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next1");
-                        $(swiper.slides[activeIndex + 2]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next2");
-                        $(swiper.slides[activeIndex + 3]).removeClass("prev3").removeClass("prev2").removeClass("prev1").removeClass("center").removeClass("next1").removeClass("next2").removeClass("next3").addClass("next3");
-                    }
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 35,
+                    depth: 215,
+                    modifier: 1,
+                    slideShadows: false
                 }
             });
 
@@ -87,25 +68,39 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="#"><img src="../resource/images/common/round_slide01.png" alt=""></a>
+                        <a href="#">
+                            <img src="../resource/images/common/round_slide01.png" alt="">
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#"><img src="../resource/images/common/round_slide02.png" alt=""></a>
+                        <a href="#">
+                            <img src="../resource/images/common/round_slide02.png" alt="">
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#"><img src="../resource/images/common/round_slide03.png" alt=""></a>
+                        <a href="#">
+                            <img src="../resource/images/common/round_slide03.png" alt="">
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#"><img src="../resource/images/common/round_slide04.png" alt=""></a>
+                        <a href="#">
+                            <img src="../resource/images/common/round_slide04.png" alt="">
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#"><img src="../resource/images/common/round_slide05.png" alt=""></a>
+                        <a href="#">
+                            <img src="../resource/images/common/round_slide05.png" alt="">
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#"><img src="../resource/images/common/round_slide06.png" alt=""></a>
+                        <a href="#">
+                            <img src="../resource/images/common/round_slide06.png" alt="">
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="#"><img src="../resource/images/common/round_slide07.png" alt=""></a>
+                        <a href="#">
+                            <img src="../resource/images/common/round_slide07.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -119,7 +114,6 @@
                 <img src="../resource/images/common/my_game.png" alt="">
             </div>
         </div>
-                             
 
         <div class="main-slide-wrap">
             <div class="swiper-container">
@@ -155,7 +149,6 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-                         
 
         <div class="article">
             <h2>인기 게임</h2>
@@ -202,7 +195,6 @@
                 </div>
             </div>
         </div>
-                                
 
         <div class="article">
             <h2>추천 게임</h2>
@@ -249,7 +241,6 @@
                 </div>
             </div>
         </div>
-                                
     </div>
 
     <div class="btm-menu">
