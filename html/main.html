@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -17,36 +18,6 @@
 
     <script src="../resource/js/libs/jquery-3.6.0.min.js"></script>
     <script src="../resource/js/ui-common.js"></script>
-    <script>
-        $(document).ready(function(){
-            var swiper01 = new Swiper('.main-round-slide-wrap .swiper-container', {
-                effect: "coverflow",
-                loop: true,
-                grabCursor: true,
-                centeredSlides: true,
-                slidesPerView: "auto",
-                coverflowEffect: {
-                    rotate: 0,
-                    stretch: 35,
-                    depth: 215,
-                    modifier: 1,
-                    slideShadows: false
-                }
-            });
-
-            var swiper02 = new Swiper('.main-slide-wrap .swiper-container', {
-                pagination: {
-                    el: '.main-slide-wrap .swiper-pagination'
-                }
-            });
-
-            var swiper03 = new Swiper('.popular-game-slide-wrap .swiper-container, .recommend-game-slide-wrap .swiper-container', {
-                slidesPerView: 'auto',
-                //slidesPerView: 3,
-                spaceBetween: 10
-            });
-        });
-    </script>
 </head>
 <body class="bg-blue">
 <div id="wrap">

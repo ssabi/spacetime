@@ -235,7 +235,7 @@ body {
     line-height:20px;
     flex:0 1 auto;
 }
-.hint-box .img{
+.hint-box .img {
     display:flex;
     padding:0 28px;
     flex:1;
@@ -288,12 +288,12 @@ body {
 .img-list p + p {
     margin-top:10px;
 }
-.txt-box .form-box .inner{
-    align-items: center;
-    justify-content: flex-start;
+.txt-box .form-box .inner {
+    align-items:center;
+    justify-content:flex-start;
 }
-.txt-box .form-box .inner .input-wrap:before{
-    display: none;
+.txt-box .form-box .inner .input-wrap:before {
+    display:none;
 }
 .card-box.play {
     position:relative;
@@ -340,5 +340,5 @@ body {
     margin-right:17px;
 }
 .box-wrap > *:last-child {
-    margin-left:8px; 
+    margin-left:8px;
 }

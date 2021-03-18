@@ -16,7 +16,7 @@
     letter-spacing:8px;
     text-align:center;
 }
-.btn:hover, .btn:focus{
+.btn:hover, .btn:focus {
     text-decoration:none;
 }
 .btn span {
