@@ -8013,7 +8013,7 @@
 
                 i3 = binarySearch(this.x, x2);
                 i1 = i3 - 1; // We have our indexes i1 & i3, so we can calculate already:
-                // y2 := ((x2âˆ’x1) Ã— (y3âˆ’y1)) Ã· (x3âˆ’x1) + y1
+                // y2 := ((x2Ã¢Ë†â€™x1) Ãƒâ€” (y3Ã¢Ë†â€™y1)) ÃƒÂ· (x3Ã¢Ë†â€™x1) + y1
 
                 return (x2 - this.x[i1]) * (this.y[i3] - this.y[i1]) / (this.x[i3] - this.x[i1]) + this.y[i1];
             };
@@ -9681,6 +9681,10 @@ $(document).ready(function () {
         new Swiper('.recommend-game-slide-wrap .swiper-container', slideOpt);
     }
 
+    slider();
+});
+
+var slider = function(){
     //Game View - Swiper
     if ($(".main-top-slide-wrap").length > 0) {
         new Swiper('.main-top-slide-wrap .swiper-container', {
@@ -9693,4 +9697,4 @@ $(document).ready(function () {
             }
         });
     }
-});
+}
