@@ -31,7 +31,7 @@ body {
     margin-top:8px;
 }
 .txt-box span {
-    color:#bfb299;
+    color:#fcc433;
 }
 .txt-box em {
     font-weight:700;
@@ -364,6 +364,9 @@ body {
 }
 .box-wrap > *:last-child {
     margin-left:11px;
+}
+.box-wrap span {
+    color:#bfb299;
 }
 
 .wrong-answer {

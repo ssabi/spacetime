@@ -178,13 +178,13 @@
     display:block;
     color:#978b7e;
     font-size:18px;
-    font-weight:500;
+    font-weight:800;
     line-height:22px;
     text-align:center;
 }
 .ext-footer #footer .btn-wrap .txt-area > a span {
     display:inline-block;
-    border-bottom:1px solid #978b7e;
+    border-bottom:2px solid #978b7e;
 }
 
 /* Container */

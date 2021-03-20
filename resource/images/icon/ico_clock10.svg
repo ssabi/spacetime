@@ -14,7 +14,7 @@
             <circle cx="5" cy="5" r="4.5" class="cls-5"/>
         </g>
         <circle id="타원_143" cx="3" cy="3" r="3" class="cls-3" transform="translate(121 594)"/>
-        <path id="다각형_3" d="M1.333 0l1.333 23.921H0z" class="cls-3" transform="rotate(14.98 -2111.085 774.32)"/>
-        <path id="다각형_4" d="M1.333 0l1.333 14.921H0z" class="cls-3" transform="rotate(-90 353.166 244.662)"/>
+        <path id="다각형_3" d="M1.333 0l1.333 23.921H0z" class="cls-3" transform="rotate(63 -402.75 411.932)"/>
+        <path id="다각형_4" d="M1.333 0l1.333 14.921H0z" class="cls-3" transform="rotate(-140 168.65 284.103)"/>
     </g>
 </svg>
