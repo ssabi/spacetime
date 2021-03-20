@@ -4,6 +4,9 @@
 .ltsp0 {
     letter-spacing:0 !important;
 }
+.mt38 {
+    margin-top:38px !important;
+}
 
 .btn {
     display:block;
@@ -23,7 +26,7 @@
     position:relative;
 }
 .btn.bg-yellow {
-    background-color:#fcc433;
+    background-color:#bfb299;
     color:#372906;
 }
 .btn.bg-gray {
@@ -190,7 +193,7 @@
     -webkit-overflow-scrolling:touch;
 }
 #header + #container {
-    padding:0 0 130px;
+    padding:0 0 110px;
 }
 .ext-footer #header + #container {
     padding:0 0 200px;
