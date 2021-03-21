@@ -9682,6 +9682,18 @@ $(document).ready(function () {
     }
 
     slider();
+
+    //Game Play List - Swiper
+    if ($(".game-slide-wrap").length > 0) {
+        new Swiper('.game-slide-wrap .swiper-container', {
+            centeredSlides: true,
+            slidesPerView: "auto",
+            spaceBetween: 10,
+            pagination: {
+                el: '.game-slide-wrap .swiper-pagination'
+            }
+        });
+    }
 });
 
 var slider = function(){

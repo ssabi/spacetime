@@ -225,6 +225,7 @@ body {
 
 .hint-box {
     position:relative;
+    margin:0 -6px 0 -5px;
 }
 .hint-box > div{
     display:flex;
@@ -264,6 +265,10 @@ body {
     flex:0 1 auto;
     justify-content:center;
     align-items:center;
+}
+.hint-box .img .sub0405 {
+    padding-top:17px;
+    max-width:246px;
 }
 .hint-box.bg-type {
     display:block;
@@ -399,4 +404,14 @@ body {
 }
 .obtain-box + .time-box {
     margin-top:35px;
+}
+
+.img-ext {
+    margin:0 -11px 0 -10px;
+}
+.txt-box + .img-ext {
+    margin-top:45px;
+}
+.img-ext + .img-list {
+    margin-top:40px;
 }
