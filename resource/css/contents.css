@@ -316,6 +316,59 @@ body {
 .img-list p + p {
     margin-top:20px;
 }
+.img-list + .time-box {
+    margin-top:30px;
+}
+
+.img-box02 {
+    position:relative;
+    overflow:hidden;
+    border:2px solid #bfb299;
+    border-radius:5px;
+}
+.img-box02 .img {
+    display:inline-block;
+    vertical-align:middle;
+}
+.img-box02 .left-man {
+    position:absolute;
+    left:-83px;
+    bottom:-20px;
+    width:203px;
+    height:234px;
+    z-index:1;
+}
+.img-box02 .right-man {
+    position:absolute;
+    right:-47px;
+    bottom:-24px;
+    width:254px;
+    height:248px;
+    z-index:1;
+}
+.img-box02 .crown {
+    position:absolute;
+    left:50%;
+    bottom:33px;
+    width:98px;
+    height:104px;
+    z-index:1;
+    transform:translate(-50%, 0);
+}
+.img-box02 .hand {
+    position:absolute;
+    left:50%;
+    bottom:0;
+    margin-left:36px;
+    width:95px;
+    height:156px;
+    z-index:2;
+    transform:translate(-50%, 0);
+}
+.img-box02 + .txt-box {
+    margin-top:27px;
+}
+
 .txt-box .form-box .inner {
     align-items:center;
     justify-content:flex-start;
