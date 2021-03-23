@@ -115,6 +115,9 @@ body {
 .ico-clock13 {
     background:url(../images/icon/ico_clock13.svg) no-repeat left top;
 }
+.ico-clock14 {
+    background:url(../images/icon/ico_clock14.svg) no-repeat left top;
+}
 .time-box p {
     margin-top:13px;
     font-weight:500;
@@ -364,6 +367,26 @@ body {
     height:156px;
     z-index:2;
     transform:translate(-50%, 0);
+}
+.img-box02 .bang {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:215px;
+    height:187px;
+    margin:-34px 0 0 28px;
+    z-index:1;
+    transform:translate(-50%, -50%);
+}
+.img-box02 .bomb {
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:63px;
+    height:63px;
+    margin:-3px 0 0 22px;
+    z-index:2;
+    transform:translate(-50%, -50%);
 }
 .img-box02 + .txt-box {
     margin-top:27px;
