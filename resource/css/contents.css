@@ -368,6 +368,11 @@ body {
     z-index:2;
     transform:translate(-50%, 0);
 }
+.img-box02 .hand.active {
+    width:97px;
+    height:201px;
+    margin-left:-68px;
+}
 .img-box02 .bang {
     position:absolute;
     left:50%;
