@@ -9702,6 +9702,9 @@ $(document).ready(function () {
             click : function(){
                 var $this = $(this);
                 var idx = $(this).index();
+                var data = $(this).data("rate-val");
+                var $input = $this.closest(".rate").data("input");
+                $("#"+$input).val(data);
                 $(".rate span").removeClass("on");
                 for(var i = 0; i <= idx; i++){
                     $(".rate span").eq(i).addClass("on");
