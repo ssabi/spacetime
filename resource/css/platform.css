@@ -1963,3 +1963,86 @@ body {font-family:'Noto Sans Myanmar', sans-serif;}
     color:#bfb299;
     text-align:center;
 }
+
+.review-write-wrap {
+    position:relative;
+    overflow-y:auto;
+    background-color:#f9f9f9;
+    margin-top:-7px;
+    height:calc(100vh - 133px);
+}
+.review-write-wrap .inner {
+    position:relative;
+    padding:40px 20px 140px;
+}
+.review-write-wrap .inner .review-box {
+    height:422px;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #e6e6e6;
+    background-color:#fff;
+}
+.review-write-wrap strong {
+    display:block;
+    height:60px;
+    padding-top:22px;
+    font-weight:500;
+    font-size:15px;
+    line-height:22px;
+    letter-spacing:-0.38px;
+    color:#333;
+    text-align:center;
+}
+.review-write-wrap .rate-wrap {
+    height:70px;
+}
+.review-write-wrap .rate-wrap .rate {
+    display:flex;
+    height:70px;
+    justify-content:center;
+}
+.review-write-wrap .rate-wrap .rate span {
+    display:inline-block;
+    overflow:hidden;
+    width:40px;
+    height:40px;
+    text-indent:-9999px;
+    background:url(../images/icon/ico_review_star.png) no-repeat left top;
+    background-size:40px 80px;
+    cursor:pointer;
+}
+.review-write-wrap .rate-wrap .rate span.on {
+    background-position:0 -40px;
+}
+.review-write-wrap .rate-wrap .rate span + span {
+    margin-left:10px;
+}
+.review-write-wrap .textarea-wrap {
+    position:relative;
+}
+.review-write-wrap .textarea-wrap textarea {
+    overflow:hidden;
+    overflow-y:auto;
+    width:100%;
+    height:250px;
+    padding:15px 20px;
+    border-radius:10px;
+    border:1px solid #e6e6e6;
+    background-color:#fff;
+    resize:none;
+    font-size:15px;
+    line-height:22px;
+    letter-spacing:-0.38px;
+    color:#333;
+    font-family:'Noto Sans Myanmar', sans-serif;
+}
+.review-write-wrap .textarea-wrap textarea::placeholder {
+    color:#c8c8c8;
+}
+.review-write-wrap .btn-wrap {
+    border:0;
+    background:#f9f9f9;
+    bottom:83px;
+    height:104px;
+
+}

@@ -9610,6 +9610,7 @@
 })));
 //# sourceMappingURL=swiper-bundle.js.map
 
+
 $(document).ready(function () {
     $(".form-box .inner .input-wrap input").on({
         focusin: function () {
@@ -9691,6 +9692,20 @@ $(document).ready(function () {
             spaceBetween: 10,
             pagination: {
                 el: '.game-slide-wrap .swiper-pagination'
+            }
+        });
+    }
+
+    //Star Rate
+    if ($(".rate").length > 0) {
+        $(".rate span").on({
+            click : function(){
+                var $this = $(this);
+                var idx = $(this).index();
+                $(".rate span").removeClass("on");
+                for(var i = 0; i <= idx; i++){
+                    $(".rate span").eq(i).addClass("on");
+                }
             }
         });
     }
