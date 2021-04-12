@@ -198,3 +198,86 @@
 .ext-footer #header + #container {
     padding:0 0 200px;
 }
+
+#pop-wrap #header{
+    height:50px;
+}
+#pop-wrap #header h1{
+    font-weight:normal;
+    font-size:20px;
+    letter-spacing:-0.5px;
+    color:#111;
+    padding-top:18px;
+}
+#pop-wrap #header .btn-close{
+    display:block;
+    position:absolute;
+    right:10px;
+    top:5px;
+    padding:10px;
+}
+#pop-wrap #header .btn-close span{
+    display:block;
+    overflow:hidden;
+    width:20px;
+    height:20px;
+    text-indent:-9999px;
+    background:url(../images/icon/ico_close02.svg) no-repeat left top;
+    background-size:100%;
+}
+#pop-wrap .main-cont{
+    padding-bottom:90px;
+}
+#pop-wrap .btm-menu .btn-box{
+    border:0;
+    height:90px;
+    padding:20px;
+}
+
+.mypoint-inp{
+    
+}
+.mypoint-inp .input-wrap{
+    padding:0;
+}
+.mypoint-inp .input-wrap:before{
+    display:none;
+}
+.mypoint-inp .input-wrap:after{
+    content:'';
+    display:block;
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    width:20px;
+    height:20px;
+    background:url(../images/icon/ico_point02.svg) no-repeat left top;
+    background-size:100%;
+}
+.mypoint-inp .input-wrap input{
+    padding:10px 60px 0 0;
+    font-weight:500;
+    height:58px;
+    font-size:28px;
+    letter-spacing:-0.7px;
+    color:#111;
+    border-radius:0;
+    border-bottom:2px solid #efefef;
+    outline:0;
+}
+.mypoint-inp .input-wrap input:focus{
+    border-color:#685dd3;
+}
+.mypoint-inp .input-wrap input::placeholder{
+    color:#bcbcbc;
+}
+.mypoint-inp p{
+    margin-top:19px;
+    font-size:14px;
+    line-height:20px;
+    color:#444;
+}
+.mypoint-inp p span{
+    font-weight:500;
+    color:#111;   
+}
